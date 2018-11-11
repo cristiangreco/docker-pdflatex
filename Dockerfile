@@ -1,4 +1,4 @@
-FROM debian:9.4-slim
+FROM debian:9.5-slim
 LABEL maintainer="cristian@regolo.cc"
 
 ENV DEBIAN_FRONTEND noninteractive
