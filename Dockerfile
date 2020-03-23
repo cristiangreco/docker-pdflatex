@@ -1,4 +1,4 @@
-FROM debian:buster-20200130-slim
+FROM debian:buster-20200224-slim
 LABEL maintainer="cristian@regolo.cc"
 
 ENV DEBIAN_FRONTEND noninteractive
