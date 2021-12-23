@@ -2,9 +2,6 @@
 
 [![Docker
 hub](https://img.shields.io/docker/pulls/cristiangreco/pdflatex.svg)](https://hub.docker.com/r/cristiangreco/pdflatex/)
-[![Size](https://img.shields.io/microbadger/image-size/cristiangreco/pdflatex/latest.svg)](https://hub.docker.com/r/cristiangreco/pdflatex/)
-
-
 
 The texlive distribution packaged as a Docker image!
 
@@ -30,7 +27,7 @@ the container:
 $ docker run --rm -it -v $(pwd):/sources cristiangreco/pdflatex /bin/sh -c "pdflatex doc.tex && pdflatex doc.tex"
 ```
 
-## Yet another docker image: how is this different?
+## Yet another docker image for `pdflatex`
 
 You can find a number of different images on [Docker
 Hub](https://hub.docker.com/search/?isAutomated=0&isOfficial=0&page=1&pullCount=0&q=latex&starCount=0)
