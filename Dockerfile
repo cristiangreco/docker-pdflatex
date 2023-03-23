@@ -1,4 +1,4 @@
-FROM debian:bullseye-20230109-slim
+FROM debian:bullseye-20230320-slim
 LABEL maintainer="cristian@regolo.cc"
 
 ENV DEBIAN_FRONTEND noninteractive
