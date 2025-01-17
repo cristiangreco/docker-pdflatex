@@ -41,7 +41,7 @@ jobs:
       with:
         images: cristiangreco/pdflatex,ghcr.io/cristiangreco/pdflatex
         flavor: latest=true
-        tags: type=raw,value={{date 'YYYYMMDD'}}
+        tags: type=raw,value={{date 'YYYYMMDD-HHmmss'}}
 
     - name: Build and push image
       id: build-and-push
