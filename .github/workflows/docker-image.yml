@@ -28,7 +28,7 @@ jobs:
 
     - name: Log into ghcr.io registry
       if: github.event_name != 'pull_request'
-      uses: docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121 # v4.1.0
+      uses: docker/login-action@c99871dec2022cc055c062a10cc1a1310835ceb4 # v4.3.0
       with:
         registry: ghcr.io
         username: ${{ github.actor }}
@@ -36,7 +36,7 @@ jobs:
 
     - name: Log into DockerHub registry
       if: github.event_name != 'pull_request'
-      uses: docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121 # v4.1.0
+      uses: docker/login-action@c99871dec2022cc055c062a10cc1a1310835ceb4 # v4.3.0
       with:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
