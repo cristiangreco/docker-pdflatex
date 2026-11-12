@@ -1,4 +1,4 @@
-FROM debian:bookworm-20261027-slim
+FROM debian:bookworm-20261104-slim
 LABEL maintainer="cristian@regolo.cc"
 
 ENV DEBIAN_FRONTEND=noninteractive
